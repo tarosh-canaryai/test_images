@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("Gemini Vision ")
 
 # API Key - Set your API key here
-API_KEY = "AIzaSyAtiV6TxcjiqfzpIBnHI2GP2IPls605JHI"  # Replace with your actual API key
+API_KEY = st.secrets["API_KEY"]
 
 
 genai.configure(api_key=API_KEY)
